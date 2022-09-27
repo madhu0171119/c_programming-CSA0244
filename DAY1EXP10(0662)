@@ -30,4 +30,5 @@ int main()
 		scanf("%c",&ch);
 	
 	}while(ch=='y');
+	return 0;
 }
