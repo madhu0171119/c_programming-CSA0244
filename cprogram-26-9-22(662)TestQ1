@@ -4,14 +4,14 @@
 int main(){
 	int lim, m, n, o;
 	char special = '#';
-	float x=1.5;
+	
 	
 	printf("enter the limit: ");
 	scanf("%d",&lim);
 	if(lim<=0 || lim==special){
 		printf("invalid limit");
 	}
-	if(lim=float(x)){
+	if(lim=float(1.5)){
 		printf("invalid limit");
 	}
 	
