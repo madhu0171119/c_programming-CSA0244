@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	int X,N,*p1,*p2,*lar_num;
+	p1=&X;
+	p2=&N;
+	printf("enter the X:");
+	scanf("%d",p1);
+	printf("enter the N:");
+	scanf("%d",p2);
+	lar_num=(*p1 > *p2) ? p1 : p2;
+	printf("%d is the maximum number.",*lar_num);
+	
+	return 0;
+	
+}
