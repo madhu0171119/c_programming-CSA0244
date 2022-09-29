@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+
+int string_ln(char*);
+
+int main()
+{
+   char str[20];
+   int len;
+   int *p;
+   int count;
+
+   printf("Enter any string ::");
+   fgets(str,20,stdin);
+
+   len = string_ln(str);
+   printf("length: %d\n",len);
+
+  return 0;
+}
+
+int string_ln(char*p)
+{
+   int count = 0;
+   while (*p != '\0') {
+      count++;
+      p++;
+   }
+   return count-1;
+}
